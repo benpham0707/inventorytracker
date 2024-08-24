@@ -13,6 +13,9 @@ export default function Home() {
     alignItems={'center'} 
   >
     <Box
+    border={'1px solid #333'}
+    >
+    <Box
       width={'800px'}
       height={'100px'}
       bgcolor={'#7393B3'}
@@ -33,7 +36,6 @@ export default function Home() {
     height="300px"
     spacing={2} 
     overflow={'auto'}
-    border={'1px solid #333'}
     >
       {item.map((i) => (
         <Box
@@ -57,6 +59,7 @@ export default function Home() {
         </Box>
       ))}
     </Stack>
+    </Box>
   </Box>
   )
 }

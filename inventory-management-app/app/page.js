@@ -1,4 +1,5 @@
 import { Box, Stack, Typography } from "@mui/material"
+import { Firestore } from "firebase/firestore"
 
 const item = ['tomato', 'potato', 'carrot', 'ginger', 'radish', 'onion', 'garlic', 'cucumber', 'kale', 'spinach']
 
